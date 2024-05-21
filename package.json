@@ -1,0 +1,31 @@
+{
+  "name": "minizumu",
+  "displayName": "Minizumu",
+  "description": "A Minimalist Theme for VSCode",
+  "version": "0.0.1",
+  "publisher": "henrichfs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minizumu/visual-studio-code"
+  },
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "icon": "./images/icon.png",
+  "keywords": [
+    "Minizumu",
+    "Dark Theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Minizumu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Minizumu-color-theme.json"
+      }
+    ]
+  }
+}
