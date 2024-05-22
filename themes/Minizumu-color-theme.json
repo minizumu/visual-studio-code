@@ -757,14 +757,7 @@
 		},
 		{
 			"scope": [
-				"variable.other.constant.object.js",
-				"variable.other.constant.property.js",
-				"variable.other.constant.object.ts",
-				"variable.other.constant.property.ts",
-				"variable.other.constant.object.jsx",
-				"variable.other.constant.property.jsx",
-				"variable.other.constant.object.tsx",
-				"variable.other.constant.property.tsx"
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#00EEFFED"
@@ -773,10 +766,7 @@
 		{
 			"scope": [
 				"variable",
-				"support.variable.js",
-				"support.variable.ts",
-				"support.variable.tsx",
-				"support.variable.jsx",
+				"support.variable",
 				"entity.other.attribute-name",
 				"support.type.property-name",
 				"source.css variable",
